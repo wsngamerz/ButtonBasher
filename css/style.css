@@ -1,0 +1,53 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	font-family: Ariel, Helvetica, Sans-Serif;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+}
+
+header.head {
+	width: 100%;
+	height: 20%;
+	margin: 0;
+}
+
+article.main {
+	width: 100%;
+	height: 60%;
+	margin: 0;
+}
+
+footer.foot {
+	width: 100%;
+	height: 20%;
+	margin: 0;
+	padding: 0;
+	padding: 0 2%;
+}
+
+article.main button {
+	padding: 25px;
+	border: 10px solid #F44336;
+	border-radius: 50%;
+	outline: none;
+	background-color: #F44336;
+	position: relative;
+	width: 30%;
+}
+
+article.main button:before{
+	content: "";
+	display: block;
+	padding-top: 100%;
+}
+
+article.main button:active {
+	background-color: #B71C1C;
+}
