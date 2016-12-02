@@ -32,7 +32,7 @@ footer.foot {
 	padding: 0 2%;
 }
 
-article.main button {
+article.main div.btn-bash {
 	padding: 25px;
 	border: 10px solid #F44336;
 	border-radius: 50%;
@@ -40,14 +40,15 @@ article.main button {
 	background-color: #F44336;
 	position: relative;
 	width: 30%;
+	margin: 0 auto;
 }
 
-article.main button:before{
+article.main div.btn-bash:before{
 	content: "";
 	display: block;
 	padding-top: 100%;
 }
 
-article.main button:active {
+article.main div.btn-bash:active {
 	background-color: #B71C1C;
 }

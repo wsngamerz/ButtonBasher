@@ -1,41 +1,40 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Button Basher</title>
-		<link rel="stylesheet" type="text/css" href="./css/style.css">
-		<link rel="stylesheet" type="text/css" href="./css/semantic.css">
-	</head>
-	<body>
-		<header class="head">
-			<h1>Button Basher</h1>
-			<div class="ui labeled button" tabindex="0">
-				<div class="ui red button">
-					Bashes:
-				</div>
-				<a class="ui basic red left pointing label">
-					<span id="bashes">0</span>
-				</a>
-				</div>
-		</header>
-		<article class="main">
-			<button onclick="bashClick(bashNum)"> </button>
-		</article>
-		<footer class="foot">
-			<button class="ui blue right floated button shop" onclick="$('.ui.basic.modal') .modal('show')
-;">Shop</button>
-			<button class="ui blue left floated button settings">Settings</button>
-		</footer>
-		<!-- modals -->
-		<div class="ui modal">
-			<div class="header">Header</div>
-				<div class="content">
-					<p></p>
-					<p></p>
-					<p></p>
-				</div>
-			</div>
+  <head>
+	<title>Button Basher</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/semantic.css">
+  </head>
+  <body>
+	<header class="head">
+	  <h1>Button Basher</h1>
+	  <div class="ui labeled button" tabindex="0">
+		<div class="ui red button">
+		  Bashes:
 		</div>
-		<!-- javascript -->
-		<script type="text/javascript" src="./js/main.js"></script>
-	</body>
+		<a class="ui basic red left pointing label">
+		  <span id="bashes">0</span>
+		</a>
+	  </div>
+	</header>
+	<article class="main">
+	  <div class="btn-bash" onclick="bashClick(bashNum)"> </div>
+	</article>
+	<footer class="foot">
+	  <button class="ui blue right floated button shop" onclick="$('.ui.basic.modal') .modal('show')
+		;">Shop</button>
+	  <button class="ui blue left floated button settings">Settings</button>
+	</footer>
+	<!-- modals -->
+	<div class="ui modal">
+	  <div class="header">Header</div>
+	  <div class="content">
+		<p></p>
+		<p></p>
+		<p></p>
+	  </div>
+	</div>
+	<!-- javascript -->
+	<script type="text/javascript" src="./js/main.js"></script>
+  </body>
 </html>
